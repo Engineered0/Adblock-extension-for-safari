@@ -1,0 +1,143 @@
+[
+  {
+    "trigger": {
+      "url-filter": ".*",
+      "resource-type": ["script", "image"]
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*tracking.*",
+      "url-filter-is-case-sensitive": true
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*doubleclick.net.*",
+      "url-filter-is-case-sensitive": true
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "trigger": {
+      "url-filter": ".*adservice.google.com.*",
+      "url-filter-is-case-sensitive": true
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+      "trigger": {
+        "url-filter": ".*\\.doubleclick\\.net",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\/ads\\/",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*adservice\\.google\\.com",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\/banner\\/",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\.googlesyndication\\.com",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*adserver",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\/popunder\\/",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\/popup\\/",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\.adsystem\\.com",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*adfox\\.ru",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    },
+    {
+      "trigger": {
+        "url-filter": ".*\\/track\\/",
+        "url-filter-is-case-sensitive": true
+      },
+      "action": {
+        "type": "block"
+      }
+    }
+  
+  
+  
+  
+  
+]
+
